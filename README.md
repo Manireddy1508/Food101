@@ -6,31 +6,31 @@ This project involves building an end-to-end CNN Image Classification Model that
 
 By leveraging a pre-trained model available in Keras, I fine-tuned it using the widely known Food101 dataset, enhancing its performance for food classification.
 
-Interesting Fact
+### Interesting Fact
 
 The model outperforms the accuracy achieved in the DeepFood research paper, which was trained on the same dataset.
 
-DeepFood Model Accuracy: 77.4%
+#### DeepFood Model Accuracy: 77.4%
 
-Our Model Accuracy: 85%
+#### Our Model Accuracy: 85%
 
-The most impressive part? While the DeepFood model required 2-3 days for training, this model achieved higher accuracy in just 90 minutes!
+#### The most impressive part? While the DeepFood model required 2-3 days for training, this model achieved higher accuracy in just 90 minutes!
 
-Key Model Details
+### Key Model Details
 
-Dataset Used: Food101
+#### Dataset Used: Food101
 
-Model Architecture: EfficientNetV2B0
+#### Model Architecture: EfficientNetV2B0
 
-Final Accuracy: 85%
+#### Final Accuracy: 85%
 
-Project Workflow: How was it built?
+## Project Workflow: How was it built?
 
 If you're interested in the technical process behind the model's training, refer to the model-training.ipynb Notebook.
 
 Key Steps:
 
-Dataset Acquisition
+**Dataset Acquisition** 
 
 Imported the Food101 dataset from TensorFlow Datasets.
 
